@@ -48,11 +48,19 @@ body {
   gap: 24px; 
   align-self: stretch;
 }
-
+.contact_button:hover{
+  background-color: #3730a3;
+}
 .iconRow {
   display: flex; 
   justify-content: center;
-  /* gap: 16px; */
   align-self: stretch; 
 }
 
+.icon:hover {
+  background-color: #fafafa;
+}
+
+.icon {
+  border-radius: 4px;
+}
