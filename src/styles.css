@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Noto Sans', serif;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #f9fafb, #d2d6db);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 200px 0px;
+}
+
+.container {
+  background-color: white;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  width: 340px; 
+  padding: 24px 16px;
+  gap: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.10);
+}
+
+.profile {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  gap: 24px;
+}
+
+.profile img {
+  width: 64px; 
+  height: 64px;
+}
+
+.header {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  display: flex; 
+  flex-direction: column; 
+  gap: 24px; 
+  align-self: stretch;
+}
+
+.iconRow {
+  display: flex; 
+  justify-content: center;
+  /* gap: 16px; */
+  align-self: stretch; 
+}
+
